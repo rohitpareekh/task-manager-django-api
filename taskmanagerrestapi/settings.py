@@ -57,7 +57,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",   # React local dev
+    # "http://localhost:5173",   # React local dev
+    "https://rohit-taskmanager-q4.netlify.app/"
 ]
 
 REST_FRAMEWORK = {
